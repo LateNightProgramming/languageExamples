@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+			#title {
+				color: white;
+				text-align: center;
+			}
+            .main {
+                text-align: center;
+                border-style: solid;
+                border-color: white;
+				color: white;
+            }
+            #button {
+                margin: 0;
+                position: absolute;
+                -ms-transform: translateX(-50%);
+                transform: translateX(-50%);
+            }
+        </style>
+        <title>
+            my cool website!
+        </title>
+    </head>
+    <body bgcolor="black">
+        <h1 id="title">
+            My cool website!
+        </h1>
+        <div class="main">
+            <p>
+                this is a cool body of text! <br> I like cool text!
+            </p>
+            <a href="https://www.w3schools.com">
+                a cool place to learn coding
+            </a>
+            <h6>
+                copyright: daveMentionStudios
+            </h6>
+            <button onclick="myFunc()" id="button">
+				this is a button
+            </button>
+			<br>
+        </div>
+		<p style="text-align: center;">
+			i am some hidden text
+		</p>
+    </body>
+    <script>
+        function myFunc() {
+            window.open("https://www.youtube.com");
+        }
+    </script>
+</html>
