@@ -1,1 +1,1 @@
-programiz is a good onlien compiler for the python and js solutions, whilst the js solution can be executed in the p5.js editor id heavily advise against that as the program is designed to work with input being in console rather than a web prompt
+programiz is a good online compiler for the python and js solutions, whilst the js solution can be executed in the p5.js editor id heavily advise against that as the program is designed to work with input being in console rather than a web prompt
