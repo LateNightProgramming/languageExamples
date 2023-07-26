@@ -1,3 +1,4 @@
+//javascript
 function mathFunc(data) {
     let mean = 0;
     for (let i = 0; i < data.length; i++) {
