@@ -1,3 +1,4 @@
+#python
 def mathFunc(data):
     mean = 0
     for item in data:
