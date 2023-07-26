@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<computer laptop="true">
+    <CPU hyperthreaded="true" brand="intel">
+        <processing>
+            <cores> 4 </cores>
+            <threads> 8 </threads>
+        </processing>
+        <metrics>
+            <metric_1 reliable="true"> 22450 </metric_1>
+            <metric_2 reliable="true"> 11345 </metric_2>
+            <metric_3 reliable="false"> 67812 </metric_3>
+            <metric_4 reliable="true"> 21111 </metric_4>
+        </metrics>
+    </CPU>
+    <RAM>
+        <size>
+            <count> 8 </count>
+            <unit> GB </unit>
+        </size>
+        <channels> 2 </channels>
+        <mhz> 2666 </mhz>
+        <clockCount> 17 </clockCount>
+        <voltage> 1.5 </voltage>
+    </RAM>
+    <GPU has="true" brand="nvidia">
+        <name> GTX 1080 </name>
+        <cores total = "10000">
+            <cuda> 5000 </cuda>
+            <other> 5000 </other>
+        </cores>
+        <fanCount> 1 </fanCount>
+    </GPU>
+    <motherBoard>
+        <channels> 2 </channels>
+        <chipSet> unknown </chipset>
+        <DRM_Cooling has="true"> minimal </DRM_Cooling>
+        <size> ATX </size>
+    </motherBoard>
+</computer>
