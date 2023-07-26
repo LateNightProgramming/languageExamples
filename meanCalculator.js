@@ -17,7 +17,7 @@ function setup() {
             break;
         } else {
             if (isNaN(Number(inp))) {
-                console.log("invalid response"); //alternative would be to throw a new exception if number(inp) = NaN
+                console.log("invalid response");
             } else {
                 data.push(Number(inp));
             }
@@ -40,5 +40,5 @@ function setup() {
         }
     }
 }
-console.log("welcome!\ntype end when you wish to end the data selection process\nbtw setup throws an error to end program when user desires");
+console.log("welcome!\ntype end when you wish to end the data selection process\n");
 setup();
