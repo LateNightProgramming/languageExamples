@@ -1,1 +1,2 @@
 programiz is a good online compiler for the python and js solutions, whilst the js solution can be executed in the p5.js editor id heavily advise against that as the program is designed to work with input being in console rather than a web prompt
+website example uses both CSS and HTML as both are always used together, however since the file is an html document CSS doesnt contribute to the language percentage
